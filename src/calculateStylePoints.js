@@ -1,4 +1,4 @@
-const calculateStylePoints = (styleNotes) => {
+const calculateStylePoints = (stylePoints) => {
     let max = Math.max(...stylePoints);
     let min = Math.min(...stylePoints);
 

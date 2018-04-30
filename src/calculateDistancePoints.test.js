@@ -44,5 +44,4 @@ describe('calculateDistancePoints', () => {
 
         assert.equal(actual, expected);
     });
-
 });
