@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./src/calculateTotalPoints.test.js",
+    "test": "mocha ./src/calculateTotalPoints.test.js && mocha ./src/calculateStylePoints.test.js && mocha ./src/calculateDistancePoints.test.js",
     "test:watch": "onchange \"./*.js\" -- npm test"
   },
   "keywords": [],
